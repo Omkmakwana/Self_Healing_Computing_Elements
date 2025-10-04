@@ -1,0 +1,101 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python / ML
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.env.*
+*.egg-info/
+*.egg
+
+# Model artifacts (keep committed ones explicitly added)
+ml/models/*
+!ml/models/.gitkeep
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# FPGA Tool (Vivado)
+*.jou
+*.log
+*.str
+*.zip
+*.wdb
+*.pb
+*.html
+*.xml
+*.xpr
+*.xsa
+*.xdc
+*.dcp
+*.rpt
+*.ltx
+*.bit
+*.bin
+*.mmi
+*.svf
+*.prm
+*.pdi
+*.pao
+*.xo
+*.xci
+*.xco
+*.xise
+*.xmp
+*.xmsgs/
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.Xil/
+*.webtalk/
+usage_statistics_webtalk.*
+
+# Quartus / Intel
+output_files/
+db/
+incremental_db/
+*.qpf
+*.qsf
+*.sof
+*.pof
+*.jic
+*.rpt
+
+# Build artifacts (C/C++)
+/build/
+*.o
+*.obj
+*.exe
+*.out
+*.map
+*.elf
+*.hex
+
+# Temporary
+.tmp/
+*.bak
+
+# Coverage / Test
+coverage/
+*.gcda
+*.gcno
+*.lcov
+
+# Generated docs
+site/
+
+# Keep placeholder file for empty model dir
