@@ -1,12 +1,7 @@
 # Synaptic Resilience Architecture (SRA)
 
 > Self-Healing Computing Elements — Proactive, AI-driven fault prediction and instant FPGA partial reconfiguration.
-
-## Placeholder IDs
-- Problem Statement ID: `TBD`
-- Team ID: `TBD`
-- Team Name: `TBD`
-
+> 
 ## 1. Problem Overview
 Mission / defence-grade electronic systems must survive faults gracefully with **zero or minimal downtime**. Traditional redundancy reacts _after_ a failure. We need a system that **anticipates faults** and transparently re-routes computation before catastrophic failure propagates.
 
